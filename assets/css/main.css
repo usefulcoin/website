@@ -3358,4 +3358,4 @@
 
 /* Contact */
 
-body div#page-wrapper section#footer div.inner ul.contact li.icon.solid { color: white }
+#footer .inner > * { color: white }
