@@ -1951,7 +1951,6 @@
 			ul.icons li {
 				display: inline-block;
 				padding: 1em 0 0 1em;
-				color: white;
 			}
 
 		ul.actions {
@@ -3226,6 +3225,9 @@
 				margin-left: 2.5em;
 			}
 
+			ul.contact li { color: white; }
+			ul.contact a{ color: inherit; }
+
 			#footer > .inner .copyright {
 				width: 100%;
 				padding: 0;
@@ -3355,7 +3357,3 @@
 			}
 
 		}
-
-/* Contact */
-
-    #footer .inner > * { color: white }
