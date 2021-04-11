@@ -3225,8 +3225,8 @@
 				margin-left: 2.5em;
 			}
 
-			#footer ul.contact { color: white; }
-			#footer a.contact { color: inherit; }
+			ul.contact { color: white; }
+			a.contact { color: inherit; }
 
 			#footer > .inner .copyright {
 				width: 100%;
