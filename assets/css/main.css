@@ -1888,7 +1888,7 @@
 			display: inline-block;
 			text-align: center;
 			line-height: 2.65em;
-			color: white;
+			color: inherit;
 		}
 
 			.icon.style2:before {
@@ -1951,6 +1951,7 @@
 			ul.icons li {
 				display: inline-block;
 				padding: 1em 0 0 1em;
+				color: white;
 			}
 
 		ul.actions {
