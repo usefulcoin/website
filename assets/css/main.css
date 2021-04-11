@@ -1888,7 +1888,7 @@
 			display: inline-block;
 			text-align: center;
 			line-height: 2.65em;
-			color: inherit;
+			color: white;
 		}
 
 			.icon.style2:before {
@@ -3209,7 +3209,6 @@
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			color: white;
 		}
 
 			#footer > .inner > * > :last-child {
