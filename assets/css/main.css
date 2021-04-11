@@ -3225,8 +3225,8 @@
 				margin-left: 2.5em;
 			}
 
-			#footer > .inner .contact .icon li { color: #ffffff; }
-			#footer > .inner .contact .icon a { color: inherit; }
+			#footer > .inner .contact ul { color: white; }
+			#footer > .inner .contact a { color: inherit; }
 
 			#footer > .inner .copyright {
 				width: 100%;
