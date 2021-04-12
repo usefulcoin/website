@@ -6446,6 +6446,11 @@ body.is-loading #banner p {
   text-shadow: rgba(0, 0, 0, 0.75) 1px 1px 1px;
 }
 
+#footer .inner ul {
+  color: #ffffff;
+  text-shadow: rgba(0, 0, 0, 0.75) 1px 1px 1px;
+}
+
 #footer .inner > * {
   width: 100%;
 }
