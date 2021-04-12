@@ -6446,13 +6446,19 @@ body.is-loading #banner p {
   text-shadow: rgba(0, 0, 0, 0.75) 1px 1px 1px;
 }
 
-#footer .inner ul {
+#footer .inner > * {
+  width: 100%;
+}
+
+#footer .inner .contact li {
   color: #ffffff;
   text-shadow: rgba(0, 0, 0, 0.75) 1px 1px 1px;
 }
 
-#footer .inner > * {
-  width: 100%;
+#footer .inner .contact li a {
+  color: #ffffff;
+  text-shadow: rgba(0, 0, 0, 0.75) 1px 1px 1px;
+  text-decoration: none;
 }
 
 #footer .inner .copyright {
