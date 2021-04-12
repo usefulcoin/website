@@ -6430,7 +6430,7 @@ body.is-loading #banner p {
 
 /* Footer */
 #footer .inner {
-  padding: 5em 0 3em 0 ;
+  padding: 10em 0 3em 0 ;
   display: -moz-flex;
   display: -ms-flex;
   display: flex;
