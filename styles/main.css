@@ -4365,6 +4365,7 @@ body {
 
 body {
   -ms-overflow-style: scrollbar;
+  background-image: linear-gradient(to top, rgba(95, 95, 95, 0.98), rgba(95, 95, 95, 0.98)), url("./images/bg.jpg");
 }
 
 @media screen and (max-width: 640px) {
@@ -6430,6 +6431,7 @@ body.is-loading #banner p {
 
 /* Footer */
 #footer .inner {
+  background-image: linear-gradient(to top, rgba(95, 95, 95, 0.98), rgba(0, 0, 0, 1)), url("./images/bg.jpg");
   padding: 5em 0 3em 0 ;
   display: -moz-flex;
   display: -ms-flex;
