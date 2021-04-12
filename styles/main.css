@@ -4365,7 +4365,6 @@ body {
 
 body {
   -ms-overflow-style: scrollbar;
-  background-image: linear-gradient(to top, rgba(95, 95, 95, 0.98), rgba(95, 95, 95, 0.98)), url("./images/bg.jpg");
 }
 
 @media screen and (max-width: 640px) {
@@ -5869,7 +5868,8 @@ body.is-menu-visible #menu .inner {
 
 /* Banner */
 #banner {
-  padding: 10em 0 4.75em 0 ;
+  padding: 10em 0 4.75em 0;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(95, 95, 95, 0.8)), url("./images/bg.jpg");
 }
 
 #banner .inner {
@@ -6430,8 +6430,11 @@ body.is-loading #banner p {
 }
 
 /* Footer */
-#footer .inner {
+#footer {
   background-image: linear-gradient(to top, rgba(95, 95, 95, 0.98), rgba(0, 0, 0, 1)), url("./images/bg.jpg");
+}
+
+#footer .inner {
   padding: 5em 0 3em 0 ;
   display: -moz-flex;
   display: -ms-flex;
@@ -6495,7 +6498,7 @@ body.is-loading #banner p {
 @media screen and (max-width: 1280px) {
   #footer {
     background-color: #5f5f5f;
-    background-image: linear-gradient(to top, rgba(95, 95, 95, 0.98), rgba(0, 0, 0, 1)), url("./images/bg.jpg");
+    #background-image: linear-gradient(to top, rgba(95, 95, 95, 0.98), rgba(0, 0, 0, 1)), url("./images/bg.jpg");
     background-size: auto, cover;
     background-position: center, center;
     margin-top: -6.5em;
